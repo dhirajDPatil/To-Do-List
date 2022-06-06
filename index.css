@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: rgb(57, 255, 47);
+    background-color: #16af0e;
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -12,12 +12,12 @@ body{
 main.container{
     background-color: white;
     border-radius: 10px;
-    /* min-width: 400px; */
     width: fit-content;
     display: flex;
     justify-content: left;
     border: 1px solid white;
     padding: 20px 25px;
+    box-shadow: 5px 5px #000000;
 }
 
 div.content h2{
