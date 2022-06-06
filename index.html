@@ -5,35 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do-List</title>
+    </script>
     <link rel="stylesheet" href="/index.css">
-    <Script src="/index.js"></Script>
 </head>
 <body>
     <main class="container">
         <div class="content">
             <h2>My to-do list</h2>
             <p>Double-click an item to mark it complete</p>
-            <input type="text">
-            <button class="button add">Add</button>
-            <ol>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, deleniti maxime incidunt voluptatem quis explicabo quisquam. Quasi obcaecati, laudantium, magnam modi tenetur quo earum repudiandae placeat ut totam pariatur magni.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, deleniti maxime incidunt voluptatem quis explicabo quisquam. Quasi obcaecati, laudantium, magnam modi tenetur quo earum repudiandae placeat ut totam pariatur magni.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, deleniti maxime incidunt voluptatem quis explicabo quisquam. Quasi obcaecati, laudantium, magnam modi tenetur quo earum repudiandae placeat ut totam pariatur magni.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, deleniti maxime incidunt voluptatem quis explicabo quisquam. Quasi obcaecati, laudantium, magnam modi tenetur quo earum repudiandae placeat ut totam pariatur magni.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, deleniti maxime incidunt voluptatem quis explicabo quisquam. Quasi obcaecati, laudantium, magnam modi tenetur quo earum repudiandae placeat ut totam pariatur magni.</li>
-                <li>Asdf</li>
-                <li>Asdf</li>
-                <li>Asdf</li>
-                <li>Asdf</li>
-                <li>Asdf</li>
-                <li>Asdf</li>
-                <li>Asdf</li>
+            <input type="text" id="addList">
+            <button id="add-button" class="add" >Add</button>
+            <ol id="myList" class="List">
             </ol>
-            <button class="button clear">Clear Completed</button>
-            <button class="button empty">Empty List</button>
-            <button class="button save">Save List</button>
-
+            <button id="clear-button" class="button clear">Clear Completed</button>
+            <button id="empty-button" class="button empty">Empty List</button>
+            <button id="save-button" class="button save">Save List</button>
+            
         </div>
     </main>
+    <Script src="/index.js"></Script>
 </body>
 </html>

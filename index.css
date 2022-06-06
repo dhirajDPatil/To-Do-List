@@ -52,3 +52,16 @@ ol{
     max-width: 350px;
     overflow: auto;
 }
+
+li::selection {
+    color: rgb(240, 8, 8);
+}
+
+li:nth-child(2n+1){
+    background-color: rgb(229, 229, 229);
+}
+
+li.completed{
+    color: gray;
+    text-decoration-line: line-through;
+}
